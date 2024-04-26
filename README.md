@@ -1,8 +1,8 @@
 ![Inpaint-web](./media/cover.png)
+
 <div align="center">
   
 # Inpaint-web
-
 
 A free and open-source inpainting & image-upscaling tool powered by webgpu and wasm on the browser.
 

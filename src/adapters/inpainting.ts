@@ -150,7 +150,8 @@ function imageDataToDataURL(imageData) {
 
 function configEnv(capabilities) {
   ort.env.wasm.wasmPaths =
-    'https://cdn.jsdelivr.net/npm/onnxruntime-web@1.16.3/dist/'
+    // 'https://cdn.jsdelivr.net/npm/onnxruntime-web@1.16.3/dist/'
+    'https://jsd.cdn.zzko.cn/npm/onnxruntime-web@1.16.3/dist/'
   if (capabilities.webgpu) {
     ort.env.wasm.numThreads = 1
   } else {
