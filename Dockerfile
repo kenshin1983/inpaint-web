@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 COPY . ./
 
 # Now we run NPM install, which includes dev dependencies
-RUN npm install
+RUN npm install --registry=https://registry.npmmirror.com
 
 FROM alpine:latest as production
 RUN apk --no-cache add nodejs ca-certificates
