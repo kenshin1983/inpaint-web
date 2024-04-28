@@ -16,19 +16,19 @@ function getModel(modelType: modelType) {
       {
         name: 'model',
         // url: 'https://huggingface.co/lxfater/inpaint-web/resolve/main/migan.onnx',
-        url: 'https://static.xhkej.com/model/lxfater/inpaint-web/migan.onnx',
+        url: 'http://inpaint.lanlipower.com/model/lxfater/inpaint-web/migan.onnx',
         backupUrl: '',
       },
       {
         name: 'model-perf',
         // url: 'https://huggingface.co/andraniksargsyan/migan/resolve/main/migan.onnx',
-        url: 'https://static.xhkej.com/model/andraniksargsyan/migan/migan.onnx',
+        url: 'http://inpaint.lanlipower.com/model/andraniksargsyan/migan/migan.onnx',
         backupUrl: '',
       },
       {
         name: 'migan-pipeline-v2',
         // url: 'https://huggingface.co/andraniksargsyan/migan/resolve/main/migan_pipeline_v2.onnx',
-        url: 'https://static.xhkej.com/model/andraniksargsyan/migan/migan_pipeline_v2.onnx',
+        url: 'http://inpaint.lanlipower.com/model/andraniksargsyan/migan/migan_pipeline_v2.onnx',
         backupUrl:
           'https://worker-share-proxy-01f5.lxfater.workers.dev/andraniksargsyan/migan/,resolve/main/migan_pipeline_v2.onnx',
       },
@@ -41,7 +41,7 @@ function getModel(modelType: modelType) {
       {
         name: 'realesrgan-x4',
         // url: 'https://huggingface.co/lxfater/inpaint-web/resolve/main/realesrgan-x4.onnx',
-        url: 'https://static.xhkej.com/model/lxfater/inpaint-web/realesrgan-x4.onnx',
+        url: 'http://inpaint.lanlipower.com/model/lxfater/inpaint-web/realesrgan-x4.onnx',
         backupUrl:
           'https://worker-share-proxy-01f5.lxfater.workers.dev/lxfater/inpaint-web/resolve/main/realesrgan-x4.onnx',
       },
